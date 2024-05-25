@@ -1,0 +1,43 @@
+{
+  "project_info": {
+    "project_number": "924432884091",
+    "project_id": "compa-c7c1f",
+    "storage_bucket": "compa-c7c1f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:924432884091:android:8984c79d286b6befc2ddde",
+        "android_client_info": {
+          "package_name": "com.rasgo.compa_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "924432884091-rm7e6g5e0e11n224o51br65peodnh47h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rasgo.compa_app",
+            "certificate_hash": "d90bcb638b874674290f192bca59e3e238e93c42"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0rFjj8yvkWgvBK9sPq-Js3Trw5d9ZHqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "924432884091-3rkds2e5qnn6amrlv44n11vkfv8d04h6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
