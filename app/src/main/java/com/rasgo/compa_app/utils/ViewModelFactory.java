@@ -6,15 +6,15 @@ import androidx.lifecycle.ViewModelProvider;
 
 import com.rasgo.compa_app.data.Repository;
 import com.rasgo.compa_app.feature.auth.LoginViewModel;
-import com.rasgo.compa_app.feature.data.remote.ApiClient;
-import com.rasgo.compa_app.feature.data.remote.ApiService;
+import com.rasgo.compa_app.data.remote.ApiClient;
+import com.rasgo.compa_app.data.remote.ApiService;
 
 public class ViewModelFactory extends ViewModelProvider.NewInstanceFactory {
     private final Repository repository;
 
     public ViewModelFactory() {
         ApiService apiService = ApiClient.getRetrofit().create(ApiService.class);
-        repository = Repository.getRrepository(apiService);
+        repository = Repository.getRepository(apiService);
     }
 
     @SuppressWarnings("unchecked")

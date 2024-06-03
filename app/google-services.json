@@ -14,7 +14,7 @@
       },
       "oauth_client": [
         {
-          "client_id": "924432884091-rm7e6g5e0e11n224o51br65peodnh47h.apps.googleusercontent.com",
+          "client_id": "924432884091-r3ha1n5jdnbq3d6i57ejv0jef5r0hjmv.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.rasgo.compa_app",
@@ -29,12 +29,7 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "924432884091-3rkds2e5qnn6amrlv44n11vkfv8d04h6.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "other_platform_oauth_client": []
         }
       }
     }

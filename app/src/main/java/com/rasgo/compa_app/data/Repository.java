@@ -3,8 +3,9 @@ package com.rasgo.compa_app.data;
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 
+import com.rasgo.compa_app.data.remote.ApiService;
 import com.rasgo.compa_app.feature.auth.LoginActivity;
-import com.rasgo.compa_app.feature.data.remote.ApiService;
+
 import com.rasgo.compa_app.model.auth.AuthResponse;
 
 import retrofit2.Call;
@@ -17,10 +18,10 @@ public class Repository {
     private final ApiService apiService;
 
     private Repository(ApiService apiService) {
-        this.apiService=apiService;
+        this.apiService = apiService;
     }
 
-    public static Repository getRrepository(ApiService apiService) {
+    public static Repository getRepository(ApiService apiService) {
         if (instance == null) {
             instance = new Repository(apiService);
         }
